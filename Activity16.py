@@ -1,6 +1,8 @@
-col = eval(input("Enter number of column: "))
-
-for x in range(1, 11):
-    for y in range(1,col +1):
-        print(f"{x} x {y} = {x*y}", end =  "\t")
+for a in range(1, 6):
+    for b in range(6, a,  -1):
+        print(" ", end = " ")
+    for c in range(1, a + 1):
+        print("*", end = " ")
+    for c in range(1, a + 1):
+        print("*", end = " ")
     print()
